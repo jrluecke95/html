@@ -1,0 +1,80 @@
+body {
+  background-color: rgb(116, 112, 112);
+  font-size: 1.2em;
+  font-family: Creepster, "Times New Roman";
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-align: left;
+  color:black;
+  background-color: rgb(206, 84, 84);
+}
+
+header img {
+  float: left;
+  padding-right: 50px;
+}
+
+#invisible {
+  width: 100%;
+  visibility: hidden;
+}
+
+h3 {
+  color: rgb(15, 52, 109);
+  text-align: center;
+  font-weight: 900;
+  font-size: 2em;
+}
+
+#p1, #p2, #p3 {
+  text-align: center;
+}
+
+#house {
+  display: inline-block;
+  width: 25%;
+}
+
+#broom {
+  display: inline-block;
+  width: 25%;
+}
+
+#fingers {
+  display: inline-block;
+  width: 25%;
+}
+
+#heads {
+  display: inline-block;
+  width: 25%;
+}
+
+#fish {
+  display: inline-block;
+  width: 25%;
+}
+
+#horns {
+  display: inline-block;
+  width: 25%;
+}
+
+#ending {
+  display: flex;
+  width: 100%;
+}
+
+#ending p {
+  width: 70%;
+  text-align: center;
+}
+
+#ending img {
+  margin: 0 auto 0 auto;
+}

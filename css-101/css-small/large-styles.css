@@ -1,0 +1,37 @@
+header {
+    background-color: silver;
+    display: inline-block;
+    width: 100%;
+}
+
+h1 {
+    float: left;
+}
+
+header ul {
+    list-style-type: none;
+    vertical-align: middle;
+    float: right;
+    height: 120%;
+}
+
+header ul li {
+    display: inline;
+    float: right;
+    margin-right: 5px;
+}
+
+#main-content {
+    width: 75%;
+    float: left;
+}
+
+#sidebar {
+    width: 25%;
+    float: right;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+}

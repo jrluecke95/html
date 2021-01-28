@@ -1,0 +1,10 @@
+#container {
+    max-width: 900px;
+}
+
+.grid-piece {
+    background-color: blue;
+    border: 2px solid red;
+    max-width: 300px;
+    float: right;
+}

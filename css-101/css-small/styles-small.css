@@ -1,0 +1,43 @@
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline;
+}
+
+#main-content {
+    width: 80%;
+}
+
+#p1, #p2, #p3 {
+    overflow: auto;
+}
+
+#p1 img {
+    float: left;
+    padding-right: 10px;
+}
+
+#p2 img {
+    float: right;
+    padding-left: 20px;
+}
+
+#p2 p {
+    clear: left;
+}
+
+#p3 {
+    width: 120%;
+    margin: 50px auto 10px auto;
+}
+
+#col1 {
+    float: left;
+    padding-right: 100px;
+}
+
+#col2 {
+    float: left;
+}

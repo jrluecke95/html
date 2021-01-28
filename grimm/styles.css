@@ -14,9 +14,27 @@ header {
   background-color: rgb(206, 84, 84);
 }
 
-header img {
+header ul {
+  list-style-type: none;
+}
+
+header ul li {
+  display: inline;
+  float: right;
+}
+
+header img, #invisible img {
   float: left;
   padding-right: 50px;
+}
+
+header iframe, #invisible iframe {
+  float: right;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 #invisible {
@@ -31,43 +49,27 @@ h3 {
   font-size: 2em;
 }
 
-#p1, #p2, #p3 {
+#p1, #p3 {
   text-align: center;
+  width: 80%;
+  margin: 0 auto 0 auto;
 }
 
-#house {
-  display: inline-block;
-  width: 25%;
+.image-sequence {
+  text-align: center;
+  padding: 0px auto 10px auto;
 }
 
-#broom {
-  display: inline-block;
+.image-text-pair {
   width: 25%;
-}
-
-#fingers {
   display: inline-block;
-  width: 25%;
-}
-
-#heads {
-  display: inline-block;
-  width: 25%;
-}
-
-#fish {
-  display: inline-block;
-  width: 25%;
-}
-
-#horns {
-  display: inline-block;
-  width: 25%;
+  vertical-align: top;
 }
 
 #ending {
   display: flex;
   width: 100%;
+  overflow: auto;
 }
 
 #ending p {

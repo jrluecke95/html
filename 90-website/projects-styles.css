@@ -1,0 +1,37 @@
+body {
+    background-image: url("/images/90s-as-fuck.jpg");
+    background-size: 200px;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+}
+
+header h1 {
+    font: minisystem;
+}
+
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.row1 img {
+    max-width: 400px;
+    height: auto;
+}
+
+.row2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.row2 img {
+    max-width: 400px;
+    height: auto;
+}

@@ -1,0 +1,25 @@
+body {
+    background-color: red;
+}
+
+#image-bank {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image {
+    border: 5px solid white;
+    box-shadow: 0 5px 10px 0 rba(0, 0, 0, 0.2);
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#lulu-story {
+    display: flex;
+    justify-content: space-between;
+}
+
+#lulu-story p {
+    width: 20%;
+    float: left;
+}

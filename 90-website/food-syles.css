@@ -1,0 +1,53 @@
+.main {
+    background-color: #ffcccc;
+    display: flex;
+    flex-wrap: wrap;
+    order: 2;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+header h1 {
+    text-align: center;
+}
+
+.layout {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+}
+
+.sidebar-left {
+    order: 1;
+    width: 20%;
+}
+
+.sidebar-right {
+    order: 3;
+    width: 20%;
+}
+
+.image-text-pair img {
+    max-width: 200px;
+}
+
+.sidebar-left h3 {
+    text-align: center;
+}
+
+.sidebar-left ul li {
+    list-style-type: none;
+    margin: 20px 0;
+}
+
+.sidebar-left ul li a {
+    text-decoration: none;
+    text-align: center;
+    color: grey;
+}
